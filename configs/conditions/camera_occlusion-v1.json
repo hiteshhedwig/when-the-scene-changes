@@ -1,0 +1,16 @@
+{
+  "name": "camera_occlusion",
+  "start_step": 30,
+  "duration_steps": 30,
+  "rectangle_xyxy": [
+    40,
+    104,
+    136,
+    200
+  ],
+  "fill_rgb": [
+    0,
+    0,
+    0
+  ]
+}

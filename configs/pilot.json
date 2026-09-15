@@ -1,0 +1,44 @@
+{
+  "status": "clean_and_sensor_pilots_complete_recovery_not_implemented",
+  "suite": "libero_spatial",
+  "task_id": 0,
+  "task_selection": "libero_spatial_task_0_confirmed",
+  "seed": 0,
+  "initial_state_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "conditions": [
+    "clean",
+    "brightness_shift",
+    "camera_occlusion",
+    "target_displacement"
+  ],
+  "policy_checkpoint": "openvla/openvla-7b-finetuned-libero-spatial",
+  "policy_revision": "962318cec55ac10993ff0f5f43eda9a270b4c873",
+  "severity_values": {
+    "brightness_factor": 0.35,
+    "occlusion_rectangle_xyxy": [
+      40,
+      104,
+      136,
+      200
+    ]
+  },
+  "disturbance_step": 30,
+  "recovery": "disabled",
+  "precision": "4bit_nf4_fp16_compute",
+  "attention": "eager",
+  "prompt_mask_alignment_fix": true,
+  "steps": 220,
+  "settling_steps": 10,
+  "disturbance_duration_steps": 30
+}

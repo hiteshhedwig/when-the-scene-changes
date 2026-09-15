@@ -1,0 +1,80 @@
+[robosuite WARNING] No private macro file found! (macros.py:53)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:54)
+[robosuite WARNING] To setup, run: python /home/hedwig/vla_test/.venv-libero/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (macros.py:55)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Step 1 request seconds 1.714 success False
+Step 2 request seconds 1.732 success False
+Step 3 request seconds 1.488 success False
+Step 4 request seconds 1.629 success False
+Step 5 request seconds 1.584 success False
+Step 6 request seconds 1.532 success False
+Step 7 request seconds 1.668 success False
+Step 8 request seconds 1.828 success False
+Step 9 request seconds 1.685 success False
+Step 10 request seconds 1.518 success False
+Step 11 request seconds 1.735 success False
+Step 12 request seconds 1.734 success False
+Step 13 request seconds 1.612 success False
+Step 14 request seconds 1.783 success False
+Step 15 request seconds 1.55 success False
+Step 16 request seconds 1.792 success False
+Step 17 request seconds 1.75 success False
+Step 18 request seconds 1.801 success False
+Step 19 request seconds 1.964 success False
+Step 20 request seconds 1.526 success False
+Step 21 request seconds 1.477 success False
+Step 22 request seconds 1.801 success False
+Step 23 request seconds 1.704 success False
+Step 24 request seconds 2.038 success False
+Step 25 request seconds 1.838 success False
+Step 26 request seconds 1.478 success False
+Step 27 request seconds 2.544 success False
+Step 28 request seconds 1.555 success False
+Step 29 request seconds 1.687 success False
+Step 30 request seconds 1.776 success False
+Step 31 request seconds 1.636 success False
+Step 32 request seconds 1.59 success False
+Step 33 request seconds 1.583 success False
+Step 34 request seconds 1.461 success False
+Step 35 request seconds 1.692 success False
+Step 36 request seconds 1.454 success False
+Step 37 request seconds 1.614 success False
+Step 38 request seconds 1.764 success False
+Step 39 request seconds 1.735 success False
+Step 40 request seconds 1.629 success False
+Step 41 request seconds 1.695 success False
+Step 42 request seconds 1.565 success False
+Step 43 request seconds 1.537 success False
+Step 44 request seconds 1.498 success False
+Step 45 request seconds 1.542 success False
+Step 46 request seconds 1.687 success False
+Step 47 request seconds 1.863 success False
+Step 48 request seconds 1.712 success False
+Step 49 request seconds 1.514 success False
+Step 50 request seconds 1.528 success False
+Step 51 request seconds 1.645 success False
+Step 52 request seconds 1.652 success False
+Step 53 request seconds 1.719 success False
+Step 54 request seconds 1.816 success False
+Step 55 request seconds 1.578 success False
+Step 56 request seconds 1.552 success False
+Step 57 request seconds 1.611 success False
+Step 58 request seconds 1.501 success False
+Step 59 request seconds 1.596 success False
+Step 60 request seconds 1.521 success False
+Step 61 request seconds 1.731 success False
+Step 62 request seconds 1.865 success False
+Step 63 request seconds 1.523 success False
+Step 64 request seconds 1.887 success False
+Step 65 request seconds 1.624 success False
+Step 66 request seconds 1.568 success False
+Step 67 request seconds 1.626 success False
+Step 68 request seconds 1.559 success False
+Step 69 request seconds 1.644 success False
+Step 70 request seconds 1.762 success False
+Step 71 request seconds 1.545 success False
+Step 72 request seconds 1.682 success True
+Artifacts: /home/hedwig/vla_test/results/sensor-perturbations-v1/brightness_shift/state-05/attempt-01

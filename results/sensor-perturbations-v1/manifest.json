@@ -1,0 +1,9 @@
+{
+  "protocol_version": "sensor-perturbations-v1",
+  "baseline": "/home/hedwig/vla_test/results/clean-baseline-v1",
+  "baseline_manifest_sha256": "beff92bf3ec466d167739a4dd8e67bcec8b0ede31a52f480f2f2b52bc023365a",
+  "created_at": "2026-11-15T12:45:19+0530",
+  "status": "complete",
+  "active_condition": null,
+  "active_state": null
+}

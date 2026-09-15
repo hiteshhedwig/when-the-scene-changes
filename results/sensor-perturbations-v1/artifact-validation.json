@@ -1,0 +1,206 @@
+{
+  "completed_episodes_validated": 20,
+  "scope": "Completed trials only; missing or technically interrupted trials are not outcomes.",
+  "checks": [
+    {
+      "condition": "brightness_shift",
+      "initial_state_id": 0,
+      "initial_rgb_matches_clean": true,
+      "disturbance_schedule_exact": true,
+      "onset_transform_exact": true,
+      "prefix_actions_compared": 30,
+      "prefix_actions_matching": 30,
+      "completed_steps": 76
+    },
+    {
+      "condition": "brightness_shift",
+      "initial_state_id": 1,
+      "initial_rgb_matches_clean": true,
+      "disturbance_schedule_exact": true,
+      "onset_transform_exact": true,
+      "prefix_actions_compared": 30,
+      "prefix_actions_matching": 30,
+      "completed_steps": 80
+    },
+    {
+      "condition": "brightness_shift",
+      "initial_state_id": 2,
+      "initial_rgb_matches_clean": true,
+      "disturbance_schedule_exact": true,
+      "onset_transform_exact": true,
+      "prefix_actions_compared": 30,
+      "prefix_actions_matching": 30,
+      "completed_steps": 220
+    },
+    {
+      "condition": "brightness_shift",
+      "initial_state_id": 3,
+      "initial_rgb_matches_clean": true,
+      "disturbance_schedule_exact": true,
+      "onset_transform_exact": true,
+      "prefix_actions_compared": 30,
+      "prefix_actions_matching": 30,
+      "completed_steps": 83
+    },
+    {
+      "condition": "brightness_shift",
+      "initial_state_id": 4,
+      "initial_rgb_matches_clean": true,
+      "disturbance_schedule_exact": true,
+      "onset_transform_exact": true,
+      "prefix_actions_compared": 30,
+      "prefix_actions_matching": 30,
+      "completed_steps": 74
+    },
+    {
+      "condition": "brightness_shift",
+      "initial_state_id": 5,
+      "initial_rgb_matches_clean": true,
+      "disturbance_schedule_exact": true,
+      "onset_transform_exact": true,
+      "prefix_actions_compared": 30,
+      "prefix_actions_matching": 30,
+      "completed_steps": 72
+    },
+    {
+      "condition": "brightness_shift",
+      "initial_state_id": 6,
+      "initial_rgb_matches_clean": true,
+      "disturbance_schedule_exact": true,
+      "onset_transform_exact": true,
+      "prefix_actions_compared": 30,
+      "prefix_actions_matching": 30,
+      "completed_steps": 75
+    },
+    {
+      "condition": "brightness_shift",
+      "initial_state_id": 7,
+      "initial_rgb_matches_clean": true,
+      "disturbance_schedule_exact": true,
+      "onset_transform_exact": true,
+      "prefix_actions_compared": 30,
+      "prefix_actions_matching": 30,
+      "completed_steps": 81
+    },
+    {
+      "condition": "brightness_shift",
+      "initial_state_id": 8,
+      "initial_rgb_matches_clean": true,
+      "disturbance_schedule_exact": true,
+      "onset_transform_exact": true,
+      "prefix_actions_compared": 30,
+      "prefix_actions_matching": 30,
+      "completed_steps": 81
+    },
+    {
+      "condition": "brightness_shift",
+      "initial_state_id": 9,
+      "initial_rgb_matches_clean": true,
+      "disturbance_schedule_exact": true,
+      "onset_transform_exact": true,
+      "prefix_actions_compared": 30,
+      "prefix_actions_matching": 30,
+      "completed_steps": 82
+    },
+    {
+      "condition": "camera_occlusion",
+      "initial_state_id": 0,
+      "initial_rgb_matches_clean": true,
+      "disturbance_schedule_exact": true,
+      "onset_transform_exact": true,
+      "prefix_actions_compared": 30,
+      "prefix_actions_matching": 30,
+      "completed_steps": 220
+    },
+    {
+      "condition": "camera_occlusion",
+      "initial_state_id": 1,
+      "initial_rgb_matches_clean": true,
+      "disturbance_schedule_exact": true,
+      "onset_transform_exact": true,
+      "prefix_actions_compared": 30,
+      "prefix_actions_matching": 30,
+      "completed_steps": 220
+    },
+    {
+      "condition": "camera_occlusion",
+      "initial_state_id": 2,
+      "initial_rgb_matches_clean": true,
+      "disturbance_schedule_exact": true,
+      "onset_transform_exact": true,
+      "prefix_actions_compared": 30,
+      "prefix_actions_matching": 30,
+      "completed_steps": 220
+    },
+    {
+      "condition": "camera_occlusion",
+      "initial_state_id": 3,
+      "initial_rgb_matches_clean": true,
+      "disturbance_schedule_exact": true,
+      "onset_transform_exact": true,
+      "prefix_actions_compared": 30,
+      "prefix_actions_matching": 30,
+      "completed_steps": 220
+    },
+    {
+      "condition": "camera_occlusion",
+      "initial_state_id": 4,
+      "initial_rgb_matches_clean": true,
+      "disturbance_schedule_exact": true,
+      "onset_transform_exact": true,
+      "prefix_actions_compared": 30,
+      "prefix_actions_matching": 30,
+      "completed_steps": 220
+    },
+    {
+      "condition": "camera_occlusion",
+      "initial_state_id": 5,
+      "initial_rgb_matches_clean": true,
+      "disturbance_schedule_exact": true,
+      "onset_transform_exact": true,
+      "prefix_actions_compared": 30,
+      "prefix_actions_matching": 30,
+      "completed_steps": 220
+    },
+    {
+      "condition": "camera_occlusion",
+      "initial_state_id": 6,
+      "initial_rgb_matches_clean": true,
+      "disturbance_schedule_exact": true,
+      "onset_transform_exact": true,
+      "prefix_actions_compared": 30,
+      "prefix_actions_matching": 30,
+      "completed_steps": 220
+    },
+    {
+      "condition": "camera_occlusion",
+      "initial_state_id": 7,
+      "initial_rgb_matches_clean": true,
+      "disturbance_schedule_exact": true,
+      "onset_transform_exact": true,
+      "prefix_actions_compared": 30,
+      "prefix_actions_matching": 30,
+      "completed_steps": 220
+    },
+    {
+      "condition": "camera_occlusion",
+      "initial_state_id": 8,
+      "initial_rgb_matches_clean": true,
+      "disturbance_schedule_exact": true,
+      "onset_transform_exact": true,
+      "prefix_actions_compared": 30,
+      "prefix_actions_matching": 30,
+      "completed_steps": 220
+    },
+    {
+      "condition": "camera_occlusion",
+      "initial_state_id": 9,
+      "initial_rgb_matches_clean": true,
+      "disturbance_schedule_exact": true,
+      "onset_transform_exact": true,
+      "prefix_actions_compared": 30,
+      "prefix_actions_matching": 30,
+      "completed_steps": 220
+    }
+  ]
+}

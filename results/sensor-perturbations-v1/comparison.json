@@ -1,0 +1,62 @@
+{
+  "scope": "Paired fixed states of one task; developmental sensor-input pilot, no recovery.",
+  "clean": {
+    "planned": 10,
+    "completed": 10,
+    "pending": 0,
+    "successes": 10,
+    "task_failures": 0,
+    "success_rate": 1.0,
+    "technical_error_attempts": 0,
+    "scope": "One task, fixed initial states; pilot only. Technical errors excluded from task outcomes.",
+    "wilson_95_interval": [
+      0.7224672001371107,
+      0.9999999999999999
+    ],
+    "interval_assumption": "Descriptive binomial interval; fixed states of one task do not establish generalization."
+  },
+  "conditions": {
+    "brightness_shift": {
+      "planned": 10,
+      "completed": 10,
+      "pending": 0,
+      "successes": 9,
+      "task_failures": 1,
+      "success_rate": 0.9,
+      "technical_error_attempts": 1,
+      "scope": "One task, fixed initial states; pilot only. Technical errors excluded from task outcomes.",
+      "wilson_95_interval": [
+        0.5958499732047615,
+        0.9821237869049271
+      ],
+      "interval_assumption": "Descriptive binomial interval; fixed states of one task do not establish generalization.",
+      "paired_completed": 10,
+      "lost_clean_successes": 1,
+      "gained_successes": 0,
+      "paired_success_rate_difference": -0.1,
+      "median_extra_actions_among_both_successful": 0,
+      "both_successful_pairs": 9
+    },
+    "camera_occlusion": {
+      "planned": 10,
+      "completed": 10,
+      "pending": 0,
+      "successes": 0,
+      "task_failures": 10,
+      "success_rate": 0.0,
+      "technical_error_attempts": 0,
+      "scope": "One task, fixed initial states; pilot only. Technical errors excluded from task outcomes.",
+      "wilson_95_interval": [
+        0.0,
+        0.2775327998628892
+      ],
+      "interval_assumption": "Descriptive binomial interval; fixed states of one task do not establish generalization.",
+      "paired_completed": 10,
+      "lost_clean_successes": 10,
+      "gained_successes": 0,
+      "paired_success_rate_difference": -1.0,
+      "median_extra_actions_among_both_successful": null,
+      "both_successful_pairs": 0
+    }
+  }
+}

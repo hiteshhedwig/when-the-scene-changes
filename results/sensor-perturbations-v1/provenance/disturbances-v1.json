@@ -1,0 +1,26 @@
+{
+  "protocol_version": "sensor-perturbations-v1",
+  "task_id": 0,
+  "seed": 0,
+  "steps": 220,
+  "initial_state_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+  "recovery": "disabled",
+  "selection_note": "Timing and severity fixed before any disturbed-policy rollout. Rectangle chosen using the existing state-0 clean scene; this is a developmental pilot.",
+  "conditions": [
+    {
+      "name": "brightness_shift",
+      "start_step": 30,
+      "duration_steps": 30,
+      "factor": 0.35
+    },
+    {
+      "name": "camera_occlusion",
+      "start_step": 30,
+      "duration_steps": 30,
+      "rectangle_xyxy": [40, 104, 136, 200],
+      "fill_rgb": [0, 0, 0]
+    }
+  ],
+  "step_convention": "Zero-based policy action index, excluding settling. Disturbed inputs at steps 30..59 inclusive; normal input resumes at 60. Simulator camera is 256x256; transform applied after rotation and before cloud model preprocessing.",
+  "scope": "One task; two transient sensor-input perturbations; no physical lighting or object-displacement intervention."
+}

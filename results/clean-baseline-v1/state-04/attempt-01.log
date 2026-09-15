@@ -1,0 +1,84 @@
+[robosuite WARNING] No private macro file found! (macros.py:53)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:54)
+[robosuite WARNING] To setup, run: python /home/hedwig/vla_test/.venv-libero/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (macros.py:55)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Step 1 request seconds 1.669 success False
+Step 2 request seconds 1.598 success False
+Step 3 request seconds 1.757 success False
+Step 4 request seconds 1.598 success False
+Step 5 request seconds 1.525 success False
+Step 6 request seconds 1.418 success False
+Step 7 request seconds 1.536 success False
+Step 8 request seconds 1.878 success False
+Step 9 request seconds 1.517 success False
+Step 10 request seconds 1.75 success False
+Step 11 request seconds 1.734 success False
+Step 12 request seconds 1.585 success False
+Step 13 request seconds 1.748 success False
+Step 14 request seconds 1.514 success False
+Step 15 request seconds 1.492 success False
+Step 16 request seconds 1.626 success False
+Step 17 request seconds 1.674 success False
+Step 18 request seconds 1.664 success False
+Step 19 request seconds 1.732 success False
+Step 20 request seconds 1.681 success False
+Step 21 request seconds 1.6 success False
+Step 22 request seconds 1.522 success False
+Step 23 request seconds 1.497 success False
+Step 24 request seconds 1.57 success False
+Step 25 request seconds 1.736 success False
+Step 26 request seconds 1.674 success False
+Step 27 request seconds 1.781 success False
+Step 28 request seconds 1.624 success False
+Step 29 request seconds 1.526 success False
+Step 30 request seconds 1.582 success False
+Step 31 request seconds 1.503 success False
+Step 32 request seconds 1.648 success False
+Step 33 request seconds 1.483 success False
+Step 34 request seconds 1.647 success False
+Step 35 request seconds 1.869 success False
+Step 36 request seconds 1.613 success False
+Step 37 request seconds 1.525 success False
+Step 38 request seconds 1.643 success False
+Step 39 request seconds 1.505 success False
+Step 40 request seconds 1.792 success False
+Step 41 request seconds 1.561 success False
+Step 42 request seconds 1.79 success False
+Step 43 request seconds 1.564 success False
+Step 44 request seconds 1.652 success False
+Step 45 request seconds 1.407 success False
+Step 46 request seconds 1.565 success False
+Step 47 request seconds 1.48 success False
+Step 48 request seconds 1.508 success False
+Step 49 request seconds 1.468 success False
+Step 50 request seconds 1.661 success False
+Step 51 request seconds 1.642 success False
+Step 52 request seconds 1.587 success False
+Step 53 request seconds 1.703 success False
+Step 54 request seconds 1.637 success False
+Step 55 request seconds 1.523 success False
+Step 56 request seconds 1.515 success False
+Step 57 request seconds 1.659 success False
+Step 58 request seconds 1.758 success False
+Step 59 request seconds 1.651 success False
+Step 60 request seconds 1.516 success False
+Step 61 request seconds 1.614 success False
+Step 62 request seconds 1.666 success False
+Step 63 request seconds 1.802 success False
+Step 64 request seconds 1.864 success False
+Step 65 request seconds 1.639 success False
+Step 66 request seconds 1.758 success False
+Step 67 request seconds 1.575 success False
+Step 68 request seconds 1.652 success False
+Step 69 request seconds 1.646 success False
+Step 70 request seconds 1.535 success False
+Step 71 request seconds 1.643 success False
+Step 72 request seconds 1.503 success False
+Step 73 request seconds 1.701 success False
+Step 74 request seconds 2.117 success False
+Step 75 request seconds 1.511 success False
+Step 76 request seconds 1.662 success True
+Artifacts: /home/hedwig/vla_test/results/clean-baseline-v1/state-04/attempt-01

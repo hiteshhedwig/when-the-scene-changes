@@ -1,0 +1,4 @@
+# Matplotlib-generated SVG path formatting contains intentional whitespace.
+*.svg -whitespace
+# CSV writers use standard CRLF line endings.
+*.csv whitespace=cr-at-eol

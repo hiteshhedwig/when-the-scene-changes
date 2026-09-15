@@ -1,0 +1,99 @@
+[robosuite WARNING] No private macro file found! (macros.py:53)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:54)
+[robosuite WARNING] To setup, run: python /home/hedwig/vla_test/.venv-libero/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (macros.py:55)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Step 1 request seconds 1.451 success False
+Step 2 request seconds 1.45 success False
+Step 3 request seconds 1.596 success False
+Step 4 request seconds 1.552 success False
+Step 5 request seconds 1.585 success False
+Step 6 request seconds 1.539 success False
+Step 7 request seconds 1.555 success False
+Step 8 request seconds 1.639 success False
+Step 9 request seconds 1.487 success False
+Step 10 request seconds 1.564 success False
+Step 11 request seconds 1.781 success False
+Step 12 request seconds 1.735 success False
+Step 13 request seconds 1.74 success False
+Step 14 request seconds 1.514 success False
+Step 15 request seconds 1.481 success False
+Step 16 request seconds 1.544 success False
+Step 17 request seconds 1.495 success False
+Step 18 request seconds 1.504 success False
+Step 19 request seconds 1.697 success False
+Step 20 request seconds 1.715 success False
+Step 21 request seconds 1.531 success False
+Step 22 request seconds 1.459 success False
+Step 23 request seconds 1.575 success False
+Step 24 request seconds 1.5 success False
+Step 25 request seconds 1.653 success False
+Step 26 request seconds 1.562 success False
+Step 27 request seconds 1.749 success False
+Step 28 request seconds 1.761 success False
+Step 29 request seconds 1.507 success False
+Step 30 request seconds 1.577 success False
+Step 31 request seconds 1.628 success False
+Step 32 request seconds 2.092 success False
+Step 33 request seconds 1.545 success False
+Step 34 request seconds 1.61 success False
+Step 35 request seconds 1.824 success False
+Step 36 request seconds 1.49 success False
+Step 37 request seconds 1.491 success False
+Step 38 request seconds 1.61 success False
+Step 39 request seconds 1.471 success False
+Step 40 request seconds 1.748 success False
+Step 41 request seconds 1.701 success False
+Step 42 request seconds 1.644 success False
+Step 43 request seconds 1.611 success False
+Step 44 request seconds 1.53 success False
+Step 45 request seconds 1.523 success False
+Step 46 request seconds 1.775 success False
+Step 47 request seconds 1.47 success False
+Step 48 request seconds 1.481 success False
+Step 49 request seconds 1.493 success False
+Step 50 request seconds 1.653 success False
+Step 51 request seconds 1.719 success False
+Step 52 request seconds 1.621 success False
+Step 53 request seconds 1.47 success False
+Step 54 request seconds 1.512 success False
+Step 55 request seconds 1.457 success False
+Step 56 request seconds 1.487 success False
+Step 57 request seconds 1.395 success False
+Step 58 request seconds 1.67 success False
+Step 59 request seconds 1.695 success False
+Step 60 request seconds 1.517 success False
+Step 61 request seconds 1.648 success False
+Step 62 request seconds 1.483 success False
+Step 63 request seconds 1.723 success False
+Step 64 request seconds 1.629 success False
+Step 65 request seconds 1.666 success False
+Step 66 request seconds 2.053 success False
+Step 67 request seconds 1.659 success False
+Step 68 request seconds 1.499 success False
+Step 69 request seconds 1.863 success False
+Artifacts: /home/hedwig/vla_test/results/sensor-perturbations-v1/brightness_shift/state-02/attempt-01
+Traceback (most recent call last):
+  File "/home/hedwig/vla_test/scripts/run_remote_episode.py", line 132, in <module>
+    main()
+  File "/home/hedwig/vla_test/scripts/run_remote_episode.py", line 97, in main
+    response = policy.act(policy_rgb, task.language)
+  File "/home/hedwig/vla_test/scripts/remote_policy.py", line 53, in act
+    result = self.request('/act', {'contract': CONTRACT, 'instruction': instruction,
+  File "/home/hedwig/vla_test/scripts/remote_policy.py", line 39, in request
+    with urlopen(req, timeout=self.timeout) as response:
+  File "/home/hedwig/vla_test/.python/cpython-3.10-linux-x86_64-gnu/lib/python3.10/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "/home/hedwig/vla_test/.python/cpython-3.10-linux-x86_64-gnu/lib/python3.10/urllib/request.py", line 525, in open
+    response = meth(req, response)
+  File "/home/hedwig/vla_test/.python/cpython-3.10-linux-x86_64-gnu/lib/python3.10/urllib/request.py", line 634, in http_response
+    response = self.parent.error(
+  File "/home/hedwig/vla_test/.python/cpython-3.10-linux-x86_64-gnu/lib/python3.10/urllib/request.py", line 563, in error
+    return self._call_chain(*args)
+  File "/home/hedwig/vla_test/.python/cpython-3.10-linux-x86_64-gnu/lib/python3.10/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+  File "/home/hedwig/vla_test/.python/cpython-3.10-linux-x86_64-gnu/lib/python3.10/urllib/request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 502: Bad Gateway

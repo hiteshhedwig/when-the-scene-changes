@@ -1,0 +1,7 @@
+{
+  "initial_rgb_exactly_matches_clean": true,
+  "brightness_transform_exact": true,
+  "matched_prefix_actions": 30,
+  "prefix_length_compared": 30,
+  "note": "Camera fault begins at zero-based policy step 30; prefix differences would indicate stochastic or integration variation."
+}

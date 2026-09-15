@@ -1,0 +1,15 @@
+{
+  "planned": 10,
+  "completed": 10,
+  "pending": 0,
+  "successes": 0,
+  "task_failures": 10,
+  "success_rate": 0.0,
+  "technical_error_attempts": 0,
+  "scope": "One task, fixed initial states; pilot only. Technical errors excluded from task outcomes.",
+  "wilson_95_interval": [
+    0.0,
+    0.2775327998628892
+  ],
+  "interval_assumption": "Descriptive binomial interval; fixed states of one task do not establish generalization."
+}

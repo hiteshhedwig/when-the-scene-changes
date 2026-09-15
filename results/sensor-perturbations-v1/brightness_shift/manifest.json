@@ -1,0 +1,43 @@
+{
+  "settings": {
+    "task_id": 0,
+    "seed": 0,
+    "steps": 220,
+    "initial_state_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "condition": "brightness_shift",
+    "policy": {
+      "contract": "libero_osc_pose_v1",
+      "suite": "libero_spatial",
+      "policy": "openvla/openvla-7b-finetuned-libero-spatial",
+      "precision": "4bit",
+      "compute_dtype": "float16",
+      "quantization_type": "nf4",
+      "attention": "eager",
+      "revision": "962318cec55ac10993ff0f5f43eda9a270b4c873",
+      "preprocessing": "jpeg_lanczos224_crop_area0.9",
+      "action_postprocessing": "gripper_binarize_and_invert",
+      "unnorm_key": "libero_spatial"
+    },
+    "settling_steps": 10,
+    "sim_paused_during_inference": true,
+    "disturbance": {
+      "name": "brightness_shift",
+      "start_step": 30,
+      "duration_steps": 30,
+      "factor": 0.35
+    },
+    "recovery": "disabled"
+  },
+  "status": "complete"
+}

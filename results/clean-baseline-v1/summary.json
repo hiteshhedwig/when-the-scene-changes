@@ -1,0 +1,22 @@
+{
+  "planned": 10,
+  "completed": 10,
+  "pending": 0,
+  "successes": 10,
+  "task_failures": 0,
+  "success_rate": 1.0,
+  "technical_error_attempts": 0,
+  "scope": "One task, fixed initial states; pilot only. Technical errors excluded from task outcomes.",
+  "wilson_95_interval": [
+    0.7224672001371107,
+    0.9999999999999999
+  ],
+  "interval_assumption": "Descriptive binomial interval; fixed states of one task do not establish generalization.",
+  "mean_request_seconds": 1.6343272230856003,
+  "total_request_seconds": 1278.0438884529394,
+  "action_count_range": [
+    73,
+    86
+  ],
+  "median_action_count": 77.0
+}

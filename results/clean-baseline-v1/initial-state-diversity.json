@@ -1,0 +1,21 @@
+{
+  "source": "vendor/LIBERO/libero/libero/init_files/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate.init",
+  "initial_state_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "array_shape": [
+    10,
+    92
+  ],
+  "distinct_states": 10,
+  "note": "Distinct simulator state vectors; this does not imply ten different tasks."
+}

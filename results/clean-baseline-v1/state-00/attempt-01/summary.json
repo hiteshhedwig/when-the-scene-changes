@@ -1,0 +1,11 @@
+{
+  "success": true,
+  "completed_steps": 76,
+  "mean_request_seconds": 1.6379492185527564,
+  "median_request_seconds": 1.6307516175020282,
+  "mean_cloud_inference_seconds": 0.9806157735263181,
+  "total_request_seconds": 124.48414061000949,
+  "simulated_control_seconds": 3.8,
+  "scope": "One clean initial-state episode; not a robustness estimate.",
+  "prompt_mask_alignment_fix": true
+}

@@ -1,0 +1,6 @@
+{
+  "name": "brightness_shift",
+  "start_step": 30,
+  "duration_steps": 30,
+  "factor": 0.35
+}

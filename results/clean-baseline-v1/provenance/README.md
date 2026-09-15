@@ -1,0 +1,3 @@
+These files record the local runner source and installed local package versions used for the pilot. The attempt-counting implementation was corrected during the run to count directories rather than adjacent log files; episode simulation and policy behavior were unchanged. The final aggregate report is regenerated with that correction.
+
+The local baseline script reads VLA_ENDPOINT and VLA_API_TOKEN from environment variables; credentials are not included. Cloud model settings are recorded in the batch manifest and each episode report. This folder is not a snapshot of the remote Colab filesystem.

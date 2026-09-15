@@ -1,0 +1,11 @@
+initial_state_id,status,success,steps,mean_request_seconds,technical_error_attempts,attempts,artifacts
+0,completed,True,76,1.6379492185527564,0,1,state-00/attempt-01
+1,completed,True,78,1.6094998563591314,0,1,state-01/attempt-01
+2,completed,True,85,1.603931637482353,0,1,state-02/attempt-01
+3,completed,True,74,1.6244797420808814,0,1,state-03/attempt-01
+4,completed,True,76,1.6285454214865145,0,1,state-04/attempt-01
+5,completed,True,74,1.6041567675540038,0,1,state-05/attempt-01
+6,completed,True,73,1.668241190534252,0,1,state-06/attempt-01
+7,completed,True,82,1.640934498207216,0,1,state-07/attempt-01
+8,completed,True,86,1.6671423466042714,0,1,state-08/attempt-01
+9,completed,True,78,1.657481263397457,0,1,state-09/attempt-01

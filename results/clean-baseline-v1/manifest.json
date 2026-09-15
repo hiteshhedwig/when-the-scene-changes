@@ -1,0 +1,41 @@
+{
+  "settings": {
+    "task_id": 0,
+    "seed": 0,
+    "steps": 220,
+    "initial_state_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "condition": "clean",
+    "policy": {
+      "contract": "libero_osc_pose_v1",
+      "suite": "libero_spatial",
+      "policy": "openvla/openvla-7b-finetuned-libero-spatial",
+      "precision": "4bit",
+      "compute_dtype": "float16",
+      "quantization_type": "nf4",
+      "attention": "eager",
+      "revision": "962318cec55ac10993ff0f5f43eda9a270b4c873",
+      "preprocessing": "jpeg_lanczos224_crop_area0.9",
+      "action_postprocessing": "gripper_binarize_and_invert",
+      "unnorm_key": "libero_spatial"
+    },
+    "settling_steps": 10,
+    "sim_paused_during_inference": true
+  },
+  "created_at": "2026-11-15T12:18:43+0530",
+  "imported_episodes": {
+    "0": "/home/hedwig/vla_test/results/remote-20261115-121101-279390"
+  },
+  "status": "complete",
+  "active_state": null
+}
