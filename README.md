@@ -4,6 +4,29 @@ A VLA robustness pilot: can a robot finish an instruction after its camera input
 
 OpenVLA controls a local LIBERO/MuJoCo Panda robot, with model inference on a cloud GPU. The task is to pick up the black bowl between the plate and ramekin and place it on the plate. No model weights are installed on the laptop.
 
+## Demo
+
+### Temporary brightness fault
+
+[![Clean run, brightness-fault run, and model input shown side by side](docs/assets/brightness-demo.gif)](results/sensor-perturbations-v1/brightness-state-02-comparison.mp4)
+
+**Left:** clean run, successful after 85 actions. **Middle:** the paired brightness-fault run, unsuccessful after 220 actions. **Right:** the image sent to the cloud model, darkened to 35% intensity at actions 30–59.
+
+[Watch the full brightness video](results/sensor-perturbations-v1/brightness-state-02-comparison.mp4)
+
+<details>
+<summary>Camera occlusion demo</summary>
+
+[![Clean run, occlusion-fault run, and masked model input shown side by side](docs/assets/occlusion-demo.gif)](results/sensor-perturbations-v1/occlusion-state-00-comparison.mp4)
+
+The clean run succeeds after 76 actions. The paired run receives a fixed 96×96 camera mask at actions 30–59 and does not complete within 220 actions.
+
+[Watch the full occlusion video](results/sensor-perturbations-v1/occlusion-state-00-comparison.mp4)
+
+</details>
+
+These are recorded simulator episodes. Normal camera input returns at action 60; the clean panels freeze after success, and playback omits network waits. See the [complete paired results](results/sensor-perturbations-v1/report.md) for all trials.
+
 ## Measured result
 
 Thirty valid episodes: ten fixed initial states under each of three conditions, with the same task, model settings, environment seed, and 220-action budget.
